@@ -69,8 +69,7 @@ all these while creating the sushi website with,
 * Navigation Bar
 * Creative Hero Section
 * About Us Section
-* Popular Food, Trending Sushi, and Drinks Sections
-* Newsletter Signup and Footer
+
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
