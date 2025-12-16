@@ -310,6 +310,10 @@ img {
     bottom: -3.5rem;
   }
 
+  .home__latern-2{
+    display: none;
+  }
+
   ::-webkit-scrollbar{
     width: .6rem;
     background-color: hsl(353, 12%, 10%);
