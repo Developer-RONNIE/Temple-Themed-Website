@@ -19,7 +19,7 @@ if(navClose){
       
 
 /*=============== REMOVE MENU MOBILE ===============*/
-const navLink = document.getElementById('nav-menu')
+const navLink = document.querySelectorAll('.nav__link')
 
 const linkAction = () =>{
     const navMenu = document.getElementById('nav-menu')
@@ -29,8 +29,12 @@ const linkAction = () =>{
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== ADD BLUR HEADER ===============*/
-
-
+const blurHeader = () =>{
+    const header = document.getElementById('header')
+    window.scrollY >= 50 ? header.classList.add('blur-header')
+                       : header.classList.remove('blur-header')
+}
+window.addEventListener('scroll', blurHeader)
 /*=============== GSAP ANIMATION ===============*/
 
 
