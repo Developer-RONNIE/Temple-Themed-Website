@@ -100,6 +100,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 <details>
 <summary><code>sakura.min.js</code></summary>
+  
 ```javascript
 /*!
  * Sakura.js 1.1.1
@@ -119,6 +120,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 <details>
 <summary><code>sakura.min.js</code></summary>
+  
 ```css 
 /*!
  * Sakura.js 1.1.1
