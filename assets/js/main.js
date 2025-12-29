@@ -46,11 +46,5 @@ gsap.from('.home__data', 1.5, {opacity: 0, y: -100, delay: 2.5, ease: 'black-out
 gsap.from('.home__latern-1', 1.5, {opacity: 0, x: 70, delay: 3, ease: 'black-out(1.5)'})
 gsap.from('.home__latern-2', 1.5, {opacity: 0, x: -70, delay: 3, ease: 'black-out(1.5)'})
 
-
-
-
-
-
-
 /*=============== SAKURA ANIMATION ===============*/
-
+const sakura = new Sakura('.sakura-petals');
