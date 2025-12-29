@@ -36,6 +36,20 @@ const blurHeader = () =>{
 }
 window.addEventListener('scroll', blurHeader)
 /*=============== GSAP ANIMATION ===============*/
+gsap.from('.home__img-1', 5, {opacity: 0, x: 400})
+gsap.from('.home__img-6', 1.5, {opacity: 0, y: 200, delay: .1, ease: 'black-out(1.5)'})
+gsap.from('.home__img-3', 1.5, {opacity: 0, y: 400, delay: .7, ease: 'black-out(1.5)'})
+gsap.from('.home__img-5', 1.5, {opacity: 0, y: 400, delay: .9, ease: 'black-out(1.5)'})
+gsap.from('.home__img-2', 1.5, {opacity: 0, y: 400, delay: .9, ease: 'black-out(1.5)'})
+gsap.from('.home__img-4', 1.5, {opacity: 0, y: 200, delay: 1.8, ease: 'black-out(1.5)'})
+gsap.from('.home__data', 1.5, {opacity: 0, y: -100, delay: 2.5, ease: 'black-out(1.5)'})
+gsap.from('.home__latern-1', 1.5, {opacity: 0, x: 70, delay: 3, ease: 'black-out(1.5)'})
+gsap.from('.home__latern-2', 1.5, {opacity: 0, x: -70, delay: 3, ease: 'black-out(1.5)'})
+
+
+
+
+
 
 
 /*=============== SAKURA ANIMATION ===============*/
